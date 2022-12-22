@@ -179,15 +179,14 @@ h2 {
 
 .description {
   font-family: 'IBM Plex Sans Condensed';
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 300;
   line-height: 1.29;
   letter-spacing: 0.1px;
   text-align: left;
-  color: #141b41;
+  color: #edf2fb;
   /* padding: 10px 10px 10px 10px; */
   /* padding: 0px 20px 0px 20px; */
-  border-top: 1px solid #141b41;
 }
 
 .addon {

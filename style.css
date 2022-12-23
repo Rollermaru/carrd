@@ -10,7 +10,6 @@ body {
 
 /* footer css */
 footer div {
-  /* height: 100%; */
   font-family: 'IBM Plex Sans';
   font-size: 14px;
   display: flex;
@@ -23,7 +22,6 @@ footer div {
   padding: 10px;
   color: rgba(255, 255, 255, 0.9);
   background-color: #141B41;
-  width: 100%;
 }
 
 .copyright {
@@ -199,7 +197,7 @@ h2 {
   line-height: 1.29;
   letter-spacing: 0.1px;
   text-align: left;
-  color: #141b41;
+  color:#F4FAFF;
   padding: 0 20px 20px 20px;
 }
 
@@ -282,11 +280,17 @@ img {
 .wrapper {
   max-width: 1150px;
   margin: 5vh 5vh 10px;
-  padding: 10px 30px;
+  padding: 2vh 30px;
   min-height: 85vh;
   display: block;
   position: relative;
   z-index: 20;
+}
+
+.showcase_img {
+  border-radius: 20px;
+  width:auto;
+  object-fit:scale-down;
 }
 
 /* mobile phone usage */
@@ -300,9 +304,14 @@ img {
   .description {
     font-size: 18px;
   }
+  
+  .bio {
+    font-size: 20px;
+  }
 
   .addon {
     font-size: 13px;
+    color:#F4FAFF;
   }
 
   img {
@@ -328,3 +337,4 @@ table {
 td {
   padding: 10px 20px;
 }
+
